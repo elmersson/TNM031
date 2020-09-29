@@ -1,0 +1,27 @@
+1. The Basic HTTP GET/response interaction
+  1. Server and client uses HTTP 1.1
+  2. HTML
+  3. My 192.168.1.226 and server 128.199.245.12
+  4. The status code 200 is showing that everything is OK.
+  5. Last modied Tue, 15 Sep 2020 05:59:02 GMT
+  6. 660 bytes.
+2. The HTTP CONDITIONAL GET/response interaction
+  7. Nope nothing
+  8. yeah in the line-based text field
+  9. If-Modified-Since: Tue, 15 Sep 2020 05:59:02 GMT
+  10. The status code is 304 wich means that i has not been modified. It uses my cached
+  version of the site to save time and bandwidth.
+3. Retrieving Long Documents
+  11. One
+  12. Three
+  13. Status 200 OK
+4. HTML Documents with Embedded Objects
+  14. Three GET
+  Pi image from: https://www.ox.ac.uk/sites/files/oxford/pi.jpg
+  Header image from:
+  https://liu.se/mall06/grafik/header/default_header/default_big_header.gif
+  HTML file from: https://dellacqua.se/files/HTTP-ethereal-file4.html
+  15. The timestamps differ a bit wich tells us that it is done in serially
+5. HTTP Authentication
+  16. Status code 401
+  17. Authorization field where the log in credentails can be seen and not encrypted
